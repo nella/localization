@@ -13,7 +13,7 @@ Requirements
 Installation
 ------------
 
-Add `"nella/localization": "*"` to *composer.json and run `composer update`.
+Run `composer require nella/localization`.
 Edit your *bootstrap.php* and add `Nella\Localization\Config\Extension::register($configurator);`
 before `$configurator->createContainer()`.
 
